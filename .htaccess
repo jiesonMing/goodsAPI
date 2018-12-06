@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+  Options +FollowSymlinks
+  RewriteEngine Off
+  RewriteRule ^(.*)\.html$ $1.php
+</IfModule>
